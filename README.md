@@ -18,7 +18,7 @@ Clona este repositorio utilizando Git:
 bash
 Copiar
 Editar
-git clone [https://github.com/tuusuario/culebrita-palabras.git](https://github.com/SCARLXRD-1/Juego-de-la-Culebrita---Formar-Palabras.git)
+git clone https://github.com/SCARLXRD-1/Juego-de-la-Culebrita---Formar-Palabras.git
 O descarga el archivo .zip directamente desde GitHub y extrae el contenido en tu computadora.
 Ejecutar el juego:
 
