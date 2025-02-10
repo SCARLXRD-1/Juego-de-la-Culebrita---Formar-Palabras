@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Juego de la Culebrita</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Juego de la Culebrita - Formar Palabras</h1>
+
+        <canvas id="gameCanvas"></canvas>
+        <div class="info-panel">
+            <!-- Formulario para ingresar el nombre de usuario -->
+            <div class="user-form">
+                <label for="username">Nombre de Usuario:</label>
+                <input type="text" id="username" placeholder="Ingresa tu nombre">
+                <button onclick="setUsername()">Guardar Nombre</button>
+            </div>
+
+            <p>Tiempo: <span id="timer">0</span> s</p>
+            <p>Palabra a formar: <span id="targetWord"></span></p>
+            <p>Progreso: <span id="currentWord"></span></p>
+            <button onclick="startGame();" id="startButton" disabled>Iniciar Juego</button>
+            <button onclick="restartGame();" id="restartButton" disabled>Nuevo Juego</button>
+        </div>
+
+        <!-- Tabla de clasificación -->
+        <h2>Tabla de Clasificación</h2>
+        <table id="leaderboard">
+            <thead>
+                <tr>
+                    <th>Usuario</th>
+                    <th>Tiempo (s)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aquí se agregarán los datos de la tabla -->
+            </tbody>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

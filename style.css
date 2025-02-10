@@ -1,0 +1,73 @@
+body {
+    background-color: #1e1e2e;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+canvas {
+    background-color: #000;
+    border: 2px solid #ffffff;
+}
+
+.info-panel {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4a4e69;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #ff6b6b;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff4757;
+}
+
+/* Estilos para la tabla de clasificación */
+#leaderboard {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#leaderboard th, #leaderboard td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#leaderboard th {
+    background-color: #6c757d;
+    color: white;
+}
+
+/* Estilos para el formulario de usuario */
+.user-form {
+    margin-bottom: 20px;
+}
+
+.user-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.user-form input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+}
